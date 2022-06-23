@@ -5,8 +5,51 @@ body {
 
 .header {
     display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+    color: #e5e7eb;
 }
 a {
     text-decoration: none;
     color: #e5e7eb;
+}
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    display: flex;
+}
+h1, h3 {
+    color:#f9faf8;
+}
+button {
+    display: flex;
+}
+.rose {
+    width: 600px;
+    height: auto;
+    display: flex;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.image {
+    width: 200px;
+    height: auto;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    gap: 16px;
 }
