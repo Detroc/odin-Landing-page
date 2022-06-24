@@ -2,14 +2,17 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0px;
+    height: 220vh;
+    justify-content: space-between;
 }
+
 
 .header {
     display: flex;
     flex-direction: column;
     background-color: #1f2937;
     color: #e5e7eb;
-
+    flex: 1 1 20%;
 }
 a {
     text-decoration: none;
@@ -31,7 +34,7 @@ button {
     display: flex;
 }
 .rose {
-    width: 600px;
+    width: 400px;
     height: auto;
     display: flex;
 }
@@ -44,10 +47,11 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex: 1 1 20%;
 
 }
 .image {
- width:200px;
+ width: 200px;
  border: 1px solid  black;
  border-radius: 10px;
 
@@ -70,10 +74,33 @@ button {
     background-color: gray;
     text-align: center;
     flex-direction: column;
-    padding: 75px 200px 50px 200px;
+    flex: 1 1 20%;
+    justify-content: center;
+
 }
 .author {
     text-align: right;
     font-weight: bold;
     margin-top: -20px;
 }
+.call {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 20%;
+
+}
+ .call_text {
+
+    display: flex;
+    background-color: blue;
+    justify-content: center;
+ }
+ .footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937 ;
+    color: white;
+    flex: 1 1 1%;
+    align-items: center;
+ }
