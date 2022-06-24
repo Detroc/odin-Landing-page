@@ -9,7 +9,7 @@ body {
     flex-direction: column;
     background-color: #1f2937;
     color: #e5e7eb;
-    flex: 1 1 20%;
+
 }
 a {
     text-decoration: none;
@@ -44,7 +44,7 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
-    flex: 1 1 20%;
+
 }
 .image {
  width:200px;
@@ -64,5 +64,16 @@ button {
     align-items: center;
     flex-wrap: wrap;
     width: 200px;
-   
+}
+.quote {
+    display: flex;
+    background-color: gray;
+    text-align: center;
+    flex-direction: column;
+    padding: 75px 200px 50px 200px;
+}
+.author {
+    text-align: right;
+    font-weight: bold;
+    margin-top: -20px;
 }
